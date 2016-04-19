@@ -23,9 +23,9 @@
     <persistence-unit name="ejbca" transaction-type="JTA">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <jta-data-source>java:/EjbcaDS</jta-data-source>
-        <mapping-file>META-INF/orm-ejbca-h2.xml</mapping-file>
+        <mapping-file>META-INF/orm-ejbca-mysql.xml</mapping-file>
         <properties>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <!--
             	We don't want Hibernate to go and change the database schema on it's own initiative, since we still use
             	manual upgrade scripts. But we do want to create a database schema if this is a fresh install.

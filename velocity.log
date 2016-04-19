@@ -1,301 +1,301 @@
-Tue Apr 19 13:32:38 CST 2016  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
-Tue Apr 19 13:32:38 CST 2016   [info] ************************************************************** 
-Tue Apr 19 13:32:38 CST 2016   [info] Starting Jakarta Velocity v1.4
-Tue Apr 19 13:32:38 CST 2016   [info] RuntimeInstance initializing.
-Tue Apr 19 13:32:38 CST 2016   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
-Tue Apr 19 13:32:38 CST 2016   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
-Tue Apr 19 13:32:38 CST 2016   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
-Tue Apr 19 13:32:38 CST 2016   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
-Tue Apr 19 13:32:38 CST 2016   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:38 CST 2016   [info] FileResourceLoader : initialization starting.
-Tue Apr 19 13:32:38 CST 2016   [info] FileResourceLoader : adding path 'doc/xdocs/docs/stylesheets'
-Tue Apr 19 13:32:38 CST 2016   [info] FileResourceLoader : initialization complete.
-Tue Apr 19 13:32:38 CST 2016   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
-Tue Apr 19 13:32:38 CST 2016   [info] Default ResourceManager initialization complete.
-Tue Apr 19 13:32:38 CST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
-Tue Apr 19 13:32:38 CST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
-Tue Apr 19 13:32:38 CST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
-Tue Apr 19 13:32:38 CST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
-Tue Apr 19 13:32:38 CST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
-Tue Apr 19 13:32:38 CST 2016   [info] Created: 20 parsers.
-Tue Apr 19 13:32:38 CST 2016   [info] Velocimacro : initialization starting.
-Tue Apr 19 13:32:38 CST 2016   [info] Velocimacro : adding VMs from VM library template : templates.vm
-Tue Apr 19 13:32:38 CST 2016   [info] Velocimacro : added new VM : #note( data ) : source = templates.vm
-Tue Apr 19 13:32:38 CST 2016   [info] Velocimacro : added new VM : #warning( data ) : source = templates.vm
-Tue Apr 19 13:32:38 CST 2016   [info] Velocimacro : added new VM : #table( table ) : source = templates.vm
-Tue Apr 19 13:32:38 CST 2016   [info] Velocimacro : added new VM : #tr( tr ) : source = templates.vm
-Tue Apr 19 13:32:38 CST 2016   [info] Velocimacro : added new VM : #td( value ) : source = templates.vm
-Tue Apr 19 13:32:38 CST 2016   [info] Velocimacro : added new VM : #th( value ) : source = templates.vm
-Tue Apr 19 13:32:38 CST 2016   [info] Velocimacro : added new VM : #projectanchor( name value ) : source = templates.vm
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #link( item ) : source = templates.vm
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #metaauthor( author email ) : source = templates.vm
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #image( value ) : source = templates.vm
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #source( value ) : source = templates.vm
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #makeMainNavigation( ) : source = templates.vm
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #makeProject( menus ) : source = templates.vm
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #header( ) : source = templates.vm
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #footer( ) : source = templates.vm
-Tue Apr 19 13:32:39 CST 2016  [error] VM #tr: error : too few arguments to macro. Wanted 1 got 0
-Tue Apr 19 13:32:39 CST 2016  [error] VM #td: error : too few arguments to macro. Wanted 1 got 0
-Tue Apr 19 13:32:39 CST 2016  [error] VM #th: error : too few arguments to macro. Wanted 1 got 0
-Tue Apr 19 13:32:39 CST 2016  [error] VM #makeProject: error : too few arguments to macro. Wanted 1 got 0
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found templates.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro :  VM library template macro registration complete.
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : messages on  : VM system will output logging messages
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : initialization complete.
-Tue Apr 19 13:32:39 CST 2016   [info] Velocity successfully started.
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #process( element ) : source = ./site.vsl
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #subsection( subsection ) : source = ./site.vsl
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #subsubsection( subsubsection ) : source = ./site.vsl
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #section( section ) : source = ./site.vsl
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #toc( section ) : source = ./site.vsl
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #subtoc( faq ) : source = ./site.vsl
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #answers( section ) : source = ./site.vsl
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #faq( faq ) : source = ./site.vsl
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #minitoc( root ) : source = ./site.vsl
-Tue Apr 19 13:32:39 CST 2016   [info] Velocimacro : added new VM : #document( ) : source = ./site.vsl
-Tue Apr 19 13:32:39 CST 2016  [error] VM #subsection: error : too few arguments to macro. Wanted 1 got 0
-Tue Apr 19 13:32:39 CST 2016  [error] VM #subsubsection: error : too few arguments to macro. Wanted 1 got 0
-Tue Apr 19 13:32:39 CST 2016  [error] VM #subtoc: error : too few arguments to macro. Wanted 1 got 0
-Tue Apr 19 13:32:39 CST 2016  [error] VM #faq: error : too few arguments to macro. Wanted 1 got 0
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016  [error] Left side ($root.getChild("body").getChildren("section").size()) of '>' operation has null value. Operation not possible. ./site.vsl [line 1, column 60]
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 6, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Tue Apr 19 13:32:39 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Tue Apr 19 15:35:09 CST 2016   [info] ************************************************************** 
+Tue Apr 19 15:35:09 CST 2016   [info] Starting Jakarta Velocity v1.4
+Tue Apr 19 15:35:09 CST 2016   [info] RuntimeInstance initializing.
+Tue Apr 19 15:35:09 CST 2016   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+Tue Apr 19 15:35:09 CST 2016   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Tue Apr 19 15:35:09 CST 2016   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Tue Apr 19 15:35:09 CST 2016   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Tue Apr 19 15:35:09 CST 2016   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] FileResourceLoader : initialization starting.
+Tue Apr 19 15:35:09 CST 2016   [info] FileResourceLoader : adding path 'doc/xdocs/docs/stylesheets'
+Tue Apr 19 15:35:09 CST 2016   [info] FileResourceLoader : initialization complete.
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Tue Apr 19 15:35:09 CST 2016   [info] Default ResourceManager initialization complete.
+Tue Apr 19 15:35:09 CST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Tue Apr 19 15:35:09 CST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Tue Apr 19 15:35:09 CST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Tue Apr 19 15:35:09 CST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Tue Apr 19 15:35:09 CST 2016   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Tue Apr 19 15:35:09 CST 2016   [info] Created: 20 parsers.
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : initialization starting.
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : adding VMs from VM library template : templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #note( data ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #warning( data ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #table( table ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #tr( tr ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #td( value ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #th( value ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #projectanchor( name value ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #link( item ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #metaauthor( author email ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #image( value ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #source( value ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #makeMainNavigation( ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #makeProject( menus ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #header( ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #footer( ) : source = templates.vm
+Tue Apr 19 15:35:09 CST 2016  [error] VM #tr: error : too few arguments to macro. Wanted 1 got 0
+Tue Apr 19 15:35:09 CST 2016  [error] VM #td: error : too few arguments to macro. Wanted 1 got 0
+Tue Apr 19 15:35:09 CST 2016  [error] VM #th: error : too few arguments to macro. Wanted 1 got 0
+Tue Apr 19 15:35:09 CST 2016  [error] VM #makeProject: error : too few arguments to macro. Wanted 1 got 0
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found templates.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro :  VM library template macro registration complete.
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : messages on  : VM system will output logging messages
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : initialization complete.
+Tue Apr 19 15:35:09 CST 2016   [info] Velocity successfully started.
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #process( element ) : source = ./site.vsl
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #subsection( subsection ) : source = ./site.vsl
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #subsubsection( subsubsection ) : source = ./site.vsl
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #section( section ) : source = ./site.vsl
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #toc( section ) : source = ./site.vsl
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #subtoc( faq ) : source = ./site.vsl
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #answers( section ) : source = ./site.vsl
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #faq( faq ) : source = ./site.vsl
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #minitoc( root ) : source = ./site.vsl
+Tue Apr 19 15:35:09 CST 2016   [info] Velocimacro : added new VM : #document( ) : source = ./site.vsl
+Tue Apr 19 15:35:09 CST 2016  [error] VM #subsection: error : too few arguments to macro. Wanted 1 got 0
+Tue Apr 19 15:35:09 CST 2016  [error] VM #subsubsection: error : too few arguments to macro. Wanted 1 got 0
+Tue Apr 19 15:35:09 CST 2016  [error] VM #subtoc: error : too few arguments to macro. Wanted 1 got 0
+Tue Apr 19 15:35:09 CST 2016  [error] VM #faq: error : too few arguments to macro. Wanted 1 got 0
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016  [error] Left side ($root.getChild("body").getChildren("section").size()) of '>' operation has null value. Operation not possible. ./site.vsl [line 1, column 60]
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 6, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : process : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subsubsection : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : section : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : toc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : subtoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : answers : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : faq : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : minitoc : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [warn] Velocimacro : VM addition rejected : document : inline not allowed to replace existing VM
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found ./site.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016   [info] ResourceManager : found VERSION with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Tue Apr 19 15:35:09 CST 2016  [error] RHS of #set statement is null. Context will not be modified. ./site.vsl [line 3, column 1]

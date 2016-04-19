@@ -24,7 +24,7 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
                         http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
     <persistence-unit name="ejbca-pu" transaction-type="RESOURCE_LOCAL">
-        <mapping-file>META-INF/orm-ejbca-h2.xml</mapping-file>
+        <mapping-file>META-INF/orm-ejbca-mysql.xml</mapping-file>
         <class>org.cesecore.authorization.rules.AccessRuleData</class>
         <class>org.cesecore.authorization.cache.AccessTreeUpdateData</class>
         <class>org.cesecore.authorization.user.AccessUserAspectData</class>
@@ -56,11 +56,11 @@
         <class>org.ejbca.core.ejb.ra.userdatasource.UserDataSourceData</class>
         <class>org.ejbca.core.ejb.services.ServiceData</class>
         <properties>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
-            <property name="hibernate.connection.url" value="jdbc:h2:~/ejbcadb;DB_CLOSE_DELAY=-1"/>
-            <property name="hibernate.connection.driver_class" value="h2"/>
-            <property name="hibernate.connection.username" value="sa"/>
-            <property name="hibernate.connection.password" value="${database.password}"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://127.0.0.1:3306/ejbca"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="devpwd"/>
             <property name="hibernate.hbm2ddl.auto" value="validate"/> <!-- validate | update | create | create-drop -->
             <property name="hibernate.query.jpaql_strict_compliance" value="true"/>
         </properties>
