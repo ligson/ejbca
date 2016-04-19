@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:component="http://java.sun.com/jsf/composite/component"
+    xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+    xmlns:t="http://myfaces.apache.org/tomahawk">
+    <ui:remove>
+    <!--
+    /*************************************************************************
+     *                                                                       *
+     *  EJBCA: The OpenSource Certificate Authority                          *
+     *                                                                       *
+     *  This software is free software; you can redistribute it and/or       *
+     *  modify it under the terms of the GNU Lesser General Public           *
+     *  License as published by the Free Software Foundation; either         *
+     *  version 2.1 of the License, or any later version.                    *
+     *                                                                       *
+     *  See terms of license at gnu.org.                                     *
+     *                                                                       *
+     *************************************************************************/
+
+     version: $Id: index.xhtml 23164 2016-04-11 11:01:31Z mikekushner $
+     -->
+    </ui:remove>
+    <ui:composition template="/WEB-INF/include/template.xhtml">
+        <ui:define name="content">
+        	<div class="header" id="title">
+				<h1>A Title!</h1>
+			</div>	
+        	<div class="content-body" id="content-body">
+				<h2 class="content-body-subhead">Generic Sample Text!</h2>
+	            <h:outputText value="#{msg.generic_sampleText}"/>
+	            <h:panelGrid columns="1">
+		 	    	<component:example componentId="value" componentLabel="#{msg.somefunction_value_label}" componentValue="#{raExampleBean.value}"/>
+		     	 </h:panelGrid>
+		       
+		       	 <h2 class="content-body-subhead">Other stuff!</h2>
+		       	  	
+		        <h:form>
+		            <h:panelGrid columns="2">
+		                <h:outputLabel for="value" value="#{msg.somefunction_value_label}"/>
+		                <h:inputText id="value" value="#{raExampleBean.value}"/>
+	    	        </h:panelGrid>
+	                <h:commandButton action="#{raExampleBean.testAction}" value="#{msg.somefunction_command}">
+	                    <f:ajax execute="@form" render="@form :messages"/>
+	                </h:commandButton>
+	                <h:commandButton action="#{raExampleBean.testActionAndRedirect}" value="#{msg.somefunctionprg_command}"/>
+	                <h:commandButton action="#{raExampleBean.throwException}" value="Throw Exception (to test error handling)"/>
+	            </h:form>
+		 	  	
+		        <h:outputLabel value="[is authorized to root, method 2]" rendered="#{raAccessBean.authorizedToRootTEST}"/>
+		        
+		        <!-- Demo of a paragraph -->
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+					dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+				</p>
+				
+				<!-- An aligned form -->
+				<h2 class="content-body-subhead">An aligned form!</h2>			
+				<form class="pure-form pure-form-aligned">
+	    			<fieldset>
+		        		<div class="pure-control-group">
+		           	 		<label for="name">Username</label>
+		            		<input id="name" type="text" placeholder="Username"/>
+		        		</div>
+		
+		       			 <div class="pure-control-group">
+		            		<label for="password">Password</label>
+		            		<input id="password" type="password" placeholder="Password" />
+		       			 </div>
+	         		</fieldset>
+				</form>	
+				
+				<h2 class="content-body-subhead">An grouped form!</h2>			
+				<!-- A grouped form -->		
+				<form class="pure-form">
+				    <fieldset class="pure-group">
+				        <input type="text" class="pure-input-1-2" placeholder="E-Mail Subject" />
+				        <textarea class="pure-input-1-2" placeholder="Content"></textarea>
+				    </fieldset>
+				</form>
+				<h2 class="content-body-subhead">Tables!</h2>			
+				
+				<table class="pure-table">
+				    <thead>
+				        <tr>
+				            <th>Username</th>
+				            <th>CA</th>
+				            <th>Subject DN</th>
+				            <th>Status</th>
+				        </tr>
+				    </thead>
+				
+				    <tbody>
+				        <tr class="pure-table-odd">
+				            <td>SuperAdmin</td>
+				            <td>ManagementCA</td>
+				            <td>Accord</td>
+				            <td>Generated</td>
+				        </tr>
+				
+				        <tr>
+				            <td>Alice</td>
+				            <td>AliceCA</td>
+				            <td>CN=Alice,O=AliceCorp,C=SE</td>
+				            <td>Generated</td>
+				        </tr>
+				
+				        <tr class="pure-table-odd">
+				            <td>Bob</td>
+				            <td>BobCA</td>
+				            <td>CN=Bob,O=BobCorp,C=SE</td>
+				            <td>New</td>
+				        </tr>
+						       
+				    </tbody>
+				</table>
+	        </div>
+	        
+	         
+        </ui:define>
+    </ui:composition>
+</html>

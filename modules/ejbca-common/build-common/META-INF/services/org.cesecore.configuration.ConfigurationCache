@@ -1,0 +1,6 @@
+org.ejbca.core.ejb.config.AvailableCustomCertificateExtensionsConfigurationCache
+org.ejbca.core.ejb.config.AvailableExtendedKeyUsagesConfigurationCache
+org.ejbca.core.ejb.config.CMPConfigurationCache
+org.ejbca.core.ejb.config.GlobalConfigurationCache
+org.ejbca.core.ejb.config.GlobalUpgradeConfigurationCache
+org.ejbca.core.ejb.config.ScepConfigurationCache
